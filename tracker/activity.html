@@ -71,6 +71,17 @@
                     <input id="media2" class="form-check-input" type="radio" value="Digital" v-model="medium">
                     <label class="form-check-label" for="media2">Digital</label>
                 </div>
+              
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="checkbox"  value="completed"> 
+                    <label class="form-check-label">Completed?</label>
+                  </div>
+
+                <!---<textarea>{{ text }}</textarea> -->
+                <div clas="form-control">
+                <label for="notes">Notes</label>
+                <textarea class="form-control" id="text" v-model="text"></textarea>
+                </div>
 
                 <div>
                     <!-- Add v-on:click -->
@@ -137,6 +148,7 @@
                 activityRecords: [],
 
                 //v-modeled to the form inputs
+                Completed: true,
                 dateString: '',
                 hours: 1,
                 type: 'Sketching',
