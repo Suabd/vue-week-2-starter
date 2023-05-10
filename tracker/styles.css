@@ -1,6 +1,31 @@
 #records {
     max-height: 250px;
     overflow: scroll;
+    background-color: ghostwhite;
 }
 
+.card-header {
+    background-color: aquamarine;
+    border: 1px green solid;
+}
 
+table {
+    border: 1px solid black;
+    background-color: lightcyan;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+h1 {
+    background-color: lightgreen;
+    border: 1px green solid
+}
+
+.card {
+    border: 1px green solid;
+}
+
+.card-body {
+    background-color: whitesmoke;
+    border: 1px black solid;
+}
