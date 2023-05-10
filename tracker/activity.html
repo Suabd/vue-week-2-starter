@@ -192,6 +192,10 @@
                     this.errors.push('Select a medium')
                 }
 
+                if(!this.completed){
+                    this.errors.push('Select completed box')
+                }
+
                 if (this.errors.length === 0) {
 
                     let record = {
